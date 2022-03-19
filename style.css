@@ -1,0 +1,162 @@
+body{
+    color: white;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+/* navbar */
+#navbar{
+    background-image: linear-gradient(62deg, #ffd89b 0%, #19547b 100%);
+    padding: 1% 0;
+    width: 100%;
+    position: fixed;
+
+}
+
+.nav-link{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.nav-link:hover{
+    color: white;
+}
+
+.nav-link:visited{
+    color: white;
+}
+
+/* welcome-section */
+#welcome-section{
+     width: 100%;
+    height: 100vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(62deg, rgb(24, 136, 102) 0%, purple 100%);
+}
+
+
+.wel-head{
+    font-size: 3.5rem;
+    font-weight: bolder;
+    
+}
+
+.wel-para{
+    font-size: 1.7rem;
+    font-style: italic;
+    color: #be3144;
+}
+
+/*Poject Section */
+
+#projects{
+
+    background-image: linear-gradient(62deg, #B60F46 0%, #722d9c 100%);
+    width: 100%;
+    height: auto;
+}
+
+.project-head{
+    padding: 3% 0 0;
+    margin: 0 auto 4% auto;
+    border-bottom: solid 3px;
+    max-width: 650px;
+}
+
+.pro-para{
+    color: white;
+    margin-top: 2%;
+    font-size: 1.3rem;
+    
+}
+
+img{
+    width: 90%;
+    height: 70%;
+
+}
+
+.col{
+    margin: 1% 0;
+}
+
+.project-link{
+    background-color: #303841;
+    text-decoration: none;
+    box-shadow: 1px 1px 2px rgb(0 0 0 / 50%);;
+}
+
+
+/* Contact section */
+
+#Contact-section{
+
+    background-image: linear-gradient(62deg, #7b4397  0%,  #dc2430 100%);
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divall{
+    width: auto;
+  
+}
+
+.contact-heading{
+    margin: 25% 0 10%;
+}
+
+.Contact-links{
+    margin: 5% 0 27%;
+    font-weight: bold;
+}
+
+.con-link{
+    text-decoration: none;
+    padding: 1.5rem 1.1rem;
+    font-size: 1.4rem;
+    color: white;
+}
+
+.con-link:hover{
+    color: #FDF6EC;
+}
+
+
+.con-link:visited{
+    color: white;
+}
+
+.con-head{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.con-para{
+    font-size: 1.2rem;
+    font-style: italic;
+    margin: 1% 0 0;
+}
+
+.ficon{
+   margin: 0 2%;
+    color: white;
+}
+
+
+/* footer section */
+#footer{
+    /* background-color: #ff4c68; */
+    background-image: linear-gradient(62deg, #42275a  0%,   #734b6d 100%);
+    border-top: solid 3px;
+    padding: 3% 0 1%;
+    color: white;
+    font-weight: 700;
+}
